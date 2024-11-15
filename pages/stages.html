@@ -8,63 +8,122 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <style>
+        .nav-link:hover {
+            color: #0d6efd;
+        }
     </style>
-
 </head>
 
-<body class="bg-dark">
+<body>
     <header>
-        <!-- Navbar -->
-        <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="accueil.html">Portfolio Yakub ONAL</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link" href="accueil.html">Accueil</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="profil.html">Profil</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="BTSSIO.html">BTS SIO</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="projets.html">Projets</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="stages.html">Stages</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="certifications.html">Certifications</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="veilleTechno.html">Veille technologiques</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="tabCompetences.html">Tableau de compétences</a>
-                            </li>
-                        </ul>
-                    </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark w-100">
+            <div class="container-fluid justify-content-center">
+                <a class="navbar-brand text-center" href="accueil.html">Portfolio Yakub ONAL</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="accueil.html">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="profil.html">Profil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="BTSSIO.html">BTS SIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="projets.html">Projets</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="stages.html">Stages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="certifications.html">Certifications</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="veilleTechno.html">Veille technologiques</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tabCompetences.html">Tableau de compétences</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
                 </div>
-            </nav>
+            </div>
+        </nav>
+
+        <div class="container-fluid position-relative px-0">
+            <img src="../images/fond.jpg" class="img-fluid w-100" alt="Image de présentation"
+                style="height: 300px; object-fit: cover;">
+            <div class="position-absolute top-50 start-50 translate-middle text-center">
+                <h1 class="text-primary fw-bold display-2" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">BTS SIO
+                </h1>
+            </div>
         </div>
     </header>
 
-    <div class="py-2 container">
+    <div class="container mt-5">
+        <h1 class="text-primary">★ Expériences professionnelles</h1>
+        <div class="border-start border-2 border-danger ps-3 mt-4">
 
+            <div class="mb-4">
+                <div class="d-flex align-items-center">
+                    <h5 class="me-2">Stage Mairie Rive de Gier</h5>
+                    <span class="badge bg-secondary">2024 (6 semaines)</span>
+                </div>
+                <p>Stage BTS SIO de première année.<br>
+                    Stage suivi dans la mairie de Rive de Gier au sein du service informatique.</p>
+                <ul class="list-unstyled">
+                    <li><strong>Mairie de Rive de Gier</strong><br>
+                        <a href="https://www.google.fr/maps/place/Mairie+de+Rive-de-Gier/@45.529653,4.6164097,16z/data=!3m1!4b1!4m6!3m5!1s0x47f4fda096d2e78f:0x110b1f4523518bc4!8m2!3d45.5296493!4d4.6189846!16s%2Fg%2F1tfsmb9p?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D"
+                            target="_blank">Hôtel of Ville, 48 Rue du Canal, 42800 Rive-de-Gier</a>
+                    </li>
+                    <li><strong>Site web</strong><br>
+                    <li><a href="https://www.rivedegier.fr/" target="_blank" class="text-primary">www.rivedegier.fr</a>
+                    </li>
+                </ul>
+                <a href="#" class="text-decoration-none">Plus d'informations à propos du stage (Bientôt)</a>
+            </div>
+
+        </div>
+
+        <div class="border-start border-2 border-danger ps-3 mt-5">
+            <div class="mb-4">
+                <div class="d-flex align-items-center">
+                    <h5 class="me-2">Stage Octacom</h5>
+                    <span class="badge bg-secondary">2024 (6 semaines)</span>
+                </div>
+                <p>Stage BTS SIO de deuxième année.<br>
+                    Stage suivi dans l'entreprise Octacom au sein de l'équipe de développement web.</p>
+                <ul class="list-unstyled">
+                    <li><strong>Octacom</strong><br>
+                        <a href="https://www.google.fr/maps/place/Octa'com/@45.5310408,4.2879463,16z/data=!3m1!4b1!4m6!3m5!1s0x47f44cd3c75b64f5:0x7817273d397fc312!8m2!3d45.5310371!4d4.2905212!16s%2Fg%2F11f06l106t?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D"
+                            target="_blank">1 Rue de l'Aéroport, 42160 Andrézieux-Bouthéon</a>
+                    </li>
+                    <li><strong>Site web</strong><br>
+                    <li><a href="https://www.octacom.fr/" target="_blank" class="text-primary">www.octacom.fr</a></li>
+                </ul>
+                <a href="#" class="text-decoration-none">Plus d'informations à propos du stage (Bientôt)</a>
+            </div>
+        </div>
     </div>
-        
-    <script src="particles.js"></script>
+
+    <div class="container">
+        <footer class="py-3 my-4">
+            <p class="text-center text-body-secondary">&copy; 2024 Yakub ONAL</p>
+        </footer>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+
 </body>
 
 </html>
