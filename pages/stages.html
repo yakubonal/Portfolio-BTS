@@ -14,82 +14,224 @@
     </style>
 </head>
 
-<body class="bg-dark text-light">
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark w-100 fixed-top">
-            <div class="container-fluid justify-content-center">
-                <a class="navbar-brand text-center" href="accueil.html">Portfolio Yakub ONAL</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="accueil.html">Accueil</a>
+<body class="bg-dark text-light d-flex flex-column min-vh-100">
+    <div class="flex-grow-1">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark w-100 fixed-top">
+                <div class="container-fluid justify-content-center">
+                    <a class="navbar-brand text-center" href="accueil.html">Portfolio Yakub ONAL</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="accueil.html">Accueil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="profil.html">Profil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="BTSSIO.html">BTS SIO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="projets.html">Projets</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="stages.html">Stages</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="certifications.html">Certifications</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="veilleTechno.html">Veille Technologique</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="tabCompetences.html">Tableau de compétences</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="container-fluid position-relative px-0">
+                <img src="../images/fond.jpg" class="img-fluid w-100" alt="Image de présentation"
+                    style="height: 300px; object-fit: cover;">
+                <div class="position-absolute top-50 start-50 translate-middle text-center">
+                    <h1 class="text-primary fw-bold display-2" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Stages
+                    </h1>
+                </div>
+            </div>
+        </header>
+
+        <div class="py-5 container">
+            <h2 class="text-primary">Expériences professionnelles</h2>
+            <div class="border-start border-2 border-danger ps-3 mt-5">
+                <div class="mb-4">
+                    <div class="d-flex align-items-center">
+                        <h5 class="me-2">Stage Octacom</h5>
+                        <span class="badge bg-secondary">2024 (6 semaines)</span>
+                    </div>
+                    <p>Stage BTS SIO de deuxième année.<br>
+                        Stage suivi dans l'entreprise Octacom au sein de l'équipe de développement web.</p>
+                    <ul class="list-unstyled">
+                        <li><strong>Octacom</strong><br>
+                            <a href="https://www.google.fr/maps/place/Octa'com/@45.5310408,4.2879463,16z/data=!3m1!4b1!4m6!3m5!1s0x47f44cd3c75b64f5:0x7817273d397fc312!8m2!3d45.5310371!4d4.2905212!16s%2Fg%2F11f06l106t?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D"
+                                target="_blank">1 Rue de l'Aéroport, 42160 Andrézieux-Bouthéon</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="profil.html">Profil</a>
+                        <li><strong>Site web</strong><br>
+                        <li><a href="https://www.octacom.fr/" target="_blank" class="text-primary">www.octacom.fr</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <section class="container py-3">
+            <div class="row g-3">
+                <div class="col-md-4">
+                    <div class="card mb-4 h-100 bg-secondary text-white">
+                        <div class="card-header bg-primary text-white">
+                            Semaine 1
+                        </div>
+                        <div class="card-body">
+                            <p>Lors de ma semaine de stage chez Octacom, j'ai d'abord découvert l'entreprise et l'équipe,
+                                ainsi que les outils utilisés, notamment Joomla et WordPress avec le builder Oxygen. J'ai
+                                créé des sites exemples sur ces deux plateformes pour m'assurer de bien comprendre leur
+                                fonctionnement. J'ai également lu une documentation complète, qui m'a permis de me
+                                familiariser avec les processus internes, les outils utilisés, et les bonnes pratiques à
+                                adopter. Enfin, j'ai analysé le système de gestion des tickets clients, ce qui m'a permis de
+                                comprendre comment les demandes sont suivies et résolues. Cette semaine m'a offert une bonne
+                                introduction aux pratiques et outils utilisés dans l'entreprise.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 h-100 bg-secondary text-white">
+                        <div class="card-header bg-primary text-white">
+                            Semaine 2
+                        </div>
+                        <div class="card-body">
+                            <p>Lors de cette deuxième semaine chez Octacom, j'ai pris en charge mes premiers tickets
+                                clients, ce qui m'a permis de démontrer mon autonomie et mon efficacité dans la gestion des
+                                demandes, notamment les modifications et mises à jour sur des sites web. Grâce à
+                                l'expérience accumulée, j'ai gagné en rapidité et en maîtrise des outils nécessaires pour
+                                répondre aux attentes des clients. En fin de semaine, j'ai proposé de m'investir davantage
+                                en participant à la création d'un site web, ce qui m'a conduit à concevoir la page d'accueil
+                                en respectant une charte graphique sur Figma. Cette semaine a été marquée par un
+                                renforcement de mes compétences techniques et organisationnelles, ainsi que par une prise de
+                                responsabilités plus créative et stimulante.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 h-100 bg-secondary text-white">
+                        <div class="card-header bg-primary text-white">
+                            Semaine 3
+                        </div>
+                        <div class="card-body">
+                            <p>Cette troisième semaine a été marquée par des défis liés à l'adaptabilité et à la gestion de
+                                projets multiples. J'ai finalisé la première version de la page d'accueil en respectant la
+                                charte graphique, avant de devoir la refondre suite à une modification des directives du
+                                client. Avec l'aide d'un collègue, nous avons recréé la page d'accueil et terminé le site
+                                dans les délais, malgré ce changement de dernière minute. En parallèle, j'ai débuté un
+                                nouveau projet, en concevant rapidement une page d'accueil fonctionnelle avant de commencer
+                                l'intégration des autres pages. J'ai progressivement amélioré le style et la cohérence
+                                visuelle de ces pages, en assurant un rendu esthétique et harmonieux. Cette semaine m'a
+                                permis de développer ma capacité à gérer des priorités, à m'adapter à des imprévus et à
+                                collaborer efficacement pour atteindre des objectifs communs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 h-100 bg-secondary text-white">
+                        <div class="card-header bg-primary text-white">
+                            Semaine 4
+                        </div>
+                        <div class="card-body">
+                            <p>Cette quatrième semaine a été marquée par la finalisation d'un projet de site web et une
+                                gestion intensive des tickets clients, liée aux nombreuses demandes de mises à jour pour la
+                                période des fêtes. Après avoir achevé les derniers ajustements sur le site, j'ai pris en
+                                charge un flux important de tickets, principalement orientés vers des modifications
+                                esthétiques et des ajustements saisonniers.
+
+                                J'ai optimisé mon organisation pour prioriser les demandes urgentes tout en garantissant une
+                                communication fluide avec les clients. Cette semaine m'a permis de démontrer ma capacité à
+                                gérer une charge de travail élevée, à respecter les délais, et à maintenir une qualité
+                                constante dans les livrables, tout en renforçant ma réactivité et ma capacité à travailler
+                                efficacement sous pression.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 h-100 bg-secondary text-white">
+                        <div class="card-header bg-primary text-white">
+                            Semaine 5
+                        </div>
+                        <div class="card-body">
+                            <p>Cette cinquième semaine a été marquée par un équilibre entre la gestion des tickets, les
+                                contrôles qualité (CQ) et le démarrage de nouveaux projets de sites web. J'ai consacré les
+                                premiers jours aux ajustements et validations des retours clients dans le cadre des CQ, en
+                                veillant à respecter les contraintes techniques et esthétiques des projets. Ces tâches ont
+                                renforcé mes compétences en multitâche et en organisation.
+
+                                J'ai également travaillé sur la conception et l'intégration de nouveaux sites web, notamment
+                                la création de pages d'accueil respectant les chartes graphiques fournies. Malgré un rythme
+                                intense, j'ai su gérer les priorités et maintenir un niveau élevé de qualité dans les
+                                livrables. La fin de semaine a été marquée par une journée plus légère, permettant de
+                                démarrer un nouveau projet avec une approche méthodique et structurée. Cette semaine a
+                                encore consolidé mon expérience en design, intégration, et gestion de projets multiples.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 h-100 bg-secondary text-white">
+                        <div class="card-header bg-primary text-white">
+                            Semaine 6
+                        </div>
+                        <div class="card-body">
+                            <p>Cette sixième semaine a alterné entre des activités de gestion des tickets clients,
+                                d'intégration, et de contrôles qualité (CQ). Après une matinée de travail sur des tickets en
+                                attente, j'ai participé au repas de Noël de l'entreprise, favorisant un moment de
+                                convivialité avec l'équipe. Les jours suivants, en attendant la validation d'un site, je me
+                                suis concentré sur la gestion des tickets clients et la réalisation de contrôles qualité,
+                                garantissant la conformité des livrables aux standards techniques et esthétiques.
+
+                                Après validation, j'ai repris l'intégration complète du site en respectant la charte
+                                graphique et finalisé les pages prévues. Enfin, j'ai consacré les derniers jours à répondre
+                                à un volume important de tickets et à vérifier les fonctionnalités et la cohérence des
+                                projets en cours. Cette semaine a renforcé ma capacité à jongler entre différentes tâches
+                                tout en respectant les attentes des clients et les priorités internes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="py-5 container">
+            <div class="border-start border-2 border-danger ps-3 mt-4">
+                <div class="mb-4">
+                    <div class="d-flex align-items-center">
+                        <h5 class="me-2">Stage Mairie Rive de Gier</h5>
+                        <span class="badge bg-secondary">2024 (6 semaines)</span>
+                    </div>
+                    <p>Stage BTS SIO de première année.<br>
+                        Stage suivi dans la mairie de Rive de Gier au sein du service informatique.</p>
+                    <ul class="list-unstyled">
+                        <li><strong>Mairie de Rive de Gier</strong><br>
+                            <a href="https://www.google.fr/maps/place/Mairie+de+Rive-de-Gier/@45.529653,4.6164097,16z/data=!3m1!4b1!4m6!3m5!1s0x47f4fda096d2e78f:0x110b1f4523518bc4!8m2!3d45.5296493!4d4.6189846!16s%2Fg%2F1tfsmb9p?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D"
+                                target="_blank">Hôtel de Ville, 48 Rue du Canal, 42800 Rive-de-Gier</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="BTSSIO.html">BTS SIO</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="projets.html">Projets</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="stages.html">Stages</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="certifications.html">Certifications</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="veilleTechno.html">Veille Technologique</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="tabCompetences.html">Tableau de compétences</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
+                        <li><strong>Site web</strong><br>
+                        <li><a href="https://www.rivedegier.fr/" target="_blank" class="text-primary">www.rivedegier.fr</a>
                         </li>
                     </ul>
                 </div>
             </div>
-        </nav>
-
-        <div class="container-fluid position-relative px-0">
-            <img src="../images/fond.jpg" class="img-fluid w-100" alt="Image de présentation"
-                style="height: 300px; object-fit: cover;">
-            <div class="position-absolute top-50 start-50 translate-middle text-center">
-                <h1 class="text-primary fw-bold display-2" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Stages
-                </h1>
-            </div>
-        </div>
-    </header>
-
-    <div class="container mt-5">
-        <h1 class="text-primary">★ Expériences professionnelles</h1>
-        <div class="border-start border-2 border-danger ps-3 mt-4">
-
-            <div class="mb-4">
-                <div class="d-flex align-items-center">
-                    <h5 class="me-2">Stage Mairie Rive de Gier</h5>
-                    <span class="badge bg-secondary">2024 (6 semaines)</span>
-                </div>
-                <p>Stage BTS SIO de première année.<br>
-                    Stage suivi dans la mairie de Rive de Gier au sein du service informatique.</p>
-                <ul class="list-unstyled">
-                    <li><strong>Mairie de Rive de Gier</strong><br>
-                        <a href="https://www.google.fr/maps/place/Mairie+de+Rive-de-Gier/@45.529653,4.6164097,16z/data=!3m1!4b1!4m6!3m5!1s0x47f4fda096d2e78f:0x110b1f4523518bc4!8m2!3d45.5296493!4d4.6189846!16s%2Fg%2F1tfsmb9p?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D"
-                            target="_blank">Hôtel of Ville, 48 Rue du Canal, 42800 Rive-de-Gier</a>
-                    </li>
-                    <li><strong>Site web</strong><br>
-                    <li><a href="https://www.rivedegier.fr/" target="_blank" class="text-primary">www.rivedegier.fr</a>
-                    </li>
-                </ul>
-            </div>
-
         </div>
 
         <section class="container py-3">
@@ -191,157 +333,16 @@
             </div>
         </section>
 
-        <div class="border-start border-2 border-danger ps-3 mt-5">
-            <div class="mb-4">
-                <div class="d-flex align-items-center">
-                    <h5 class="me-2">Stage Octacom</h5>
-                    <span class="badge bg-secondary">2024 (6 semaines)</span>
-                </div>
-                <p>Stage BTS SIO de deuxième année.<br>
-                    Stage suivi dans l'entreprise Octacom au sein de l'équipe de développement web.</p>
-                <ul class="list-unstyled">
-                    <li><strong>Octacom</strong><br>
-                        <a href="https://www.google.fr/maps/place/Octa'com/@45.5310408,4.2879463,16z/data=!3m1!4b1!4m6!3m5!1s0x47f44cd3c75b64f5:0x7817273d397fc312!8m2!3d45.5310371!4d4.2905212!16s%2Fg%2F11f06l106t?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D"
-                            target="_blank">1 Rue de l'Aéroport, 42160 Andrézieux-Bouthéon</a>
-                    </li>
-                    <li><strong>Site web</strong><br>
-                    <li><a href="https://www.octacom.fr/" target="_blank" class="text-primary">www.octacom.fr</a></li>
-                </ul>
-            </div>
-        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous">
+        </script>
+
     </div>
-
-    <section class="container py-3">
-        <div class="row g-3">
-            <div class="col-md-4">
-                <div class="card mb-4 h-100 bg-secondary text-white">
-                    <div class="card-header bg-primary text-white">
-                        Semaine 1
-                    </div>
-                    <div class="card-body">
-                        <p>Lors de ma semaine de stage chez Octacom, j'ai d'abord découvert l'entreprise et l'équipe,
-                            ainsi que les outils utilisés, notamment Joomla et WordPress avec le builder Oxygen. J'ai
-                            créé des sites exemples sur ces deux plateformes pour m'assurer de bien comprendre leur
-                            fonctionnement. J'ai également lu une documentation complète, qui m'a permis de me
-                            familiariser avec les processus internes, les outils utilisés, et les bonnes pratiques à
-                            adopter. Enfin, j'ai analysé le système de gestion des tickets clients, ce qui m'a permis de
-                            comprendre comment les demandes sont suivies et résolues. Cette semaine m'a offert une bonne
-                            introduction aux pratiques et outils utilisés dans l'entreprise.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card mb-4 h-100 bg-secondary text-white">
-                    <div class="card-header bg-primary text-white">
-                        Semaine 2
-                    </div>
-                    <div class="card-body">
-                        <p>Lors de cette deuxième semaine chez Octacom, j'ai pris en charge mes premiers tickets
-                            clients, ce qui m'a permis de démontrer mon autonomie et mon efficacité dans la gestion des
-                            demandes, notamment les modifications et mises à jour sur des sites web. Grâce à
-                            l'expérience accumulée, j'ai gagné en rapidité et en maîtrise des outils nécessaires pour
-                            répondre aux attentes des clients. En fin de semaine, j'ai proposé de m'investir davantage
-                            en participant à la création d'un site web, ce qui m'a conduit à concevoir la page d'accueil
-                            en respectant une charte graphique sur Figma. Cette semaine a été marquée par un
-                            renforcement de mes compétences techniques et organisationnelles, ainsi que par une prise de
-                            responsabilités plus créative et stimulante.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card mb-4 h-100 bg-secondary text-white">
-                    <div class="card-header bg-primary text-white">
-                        Semaine 3
-                    </div>
-                    <div class="card-body">
-                        <p>Cette troisième semaine a été marquée par des défis liés à l'adaptabilité et à la gestion de
-                            projets multiples. J'ai finalisé la première version de la page d'accueil en respectant la
-                            charte graphique, avant de devoir la refondre suite à une modification des directives du
-                            client. Avec l'aide d'un collègue, nous avons recréé la page d'accueil et terminé le site
-                            dans les délais, malgré ce changement de dernière minute. En parallèle, j'ai débuté un
-                            nouveau projet, en concevant rapidement une page d'accueil fonctionnelle avant de commencer
-                            l'intégration des autres pages. J'ai progressivement amélioré le style et la cohérence
-                            visuelle de ces pages, en assurant un rendu esthétique et harmonieux. Cette semaine m'a
-                            permis de développer ma capacité à gérer des priorités, à m'adapter à des imprévus et à
-                            collaborer efficacement pour atteindre des objectifs communs.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card mb-4 h-100 bg-secondary text-white">
-                    <div class="card-header bg-primary text-white">
-                        Semaine 4
-                    </div>
-                    <div class="card-body">
-                        <p>Cette quatrième semaine a été marquée par la finalisation d'un projet de site web et une
-                            gestion intensive des tickets clients, liée aux nombreuses demandes de mises à jour pour la
-                            période des fêtes. Après avoir achevé les derniers ajustements sur le site, j'ai pris en
-                            charge un flux important de tickets, principalement orientés vers des modifications
-                            esthétiques et des ajustements saisonniers.
-
-                            J'ai optimisé mon organisation pour prioriser les demandes urgentes tout en garantissant une
-                            communication fluide avec les clients. Cette semaine m'a permis de démontrer ma capacité à
-                            gérer une charge de travail élevée, à respecter les délais, et à maintenir une qualité
-                            constante dans les livrables, tout en renforçant ma réactivité et ma capacité à travailler
-                            efficacement sous pression.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card mb-4 h-100 bg-secondary text-white">
-                    <div class="card-header bg-primary text-white">
-                        Semaine 5
-                    </div>
-                    <div class="card-body">
-                        <p>Cette cinquième semaine a été marquée par un équilibre entre la gestion des tickets, les
-                            contrôles qualité (CQ) et le démarrage de nouveaux projets de sites web. J'ai consacré les
-                            premiers jours aux ajustements et validations des retours clients dans le cadre des CQ, en
-                            veillant à respecter les contraintes techniques et esthétiques des projets. Ces tâches ont
-                            renforcé mes compétences en multitâche et en organisation.
-
-                            J'ai également travaillé sur la conception et l'intégration de nouveaux sites web, notamment
-                            la création de pages d'accueil respectant les chartes graphiques fournies. Malgré un rythme
-                            intense, j'ai su gérer les priorités et maintenir un niveau élevé de qualité dans les
-                            livrables. La fin de semaine a été marquée par une journée plus légère, permettant de
-                            démarrer un nouveau projet avec une approche méthodique et structurée. Cette semaine a
-                            encore consolidé mon expérience en design, intégration, et gestion de projets multiples.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card mb-4 h-100 bg-secondary text-white">
-                    <div class="card-header bg-primary text-white">
-                        Semaine 6
-                    </div>
-                    <div class="card-body">
-                        <p>Cette sixième semaine a alterné entre des activités de gestion des tickets clients,
-                            d'intégration, et de contrôles qualité (CQ). Après une matinée de travail sur des tickets en
-                            attente, j'ai participé au repas de Noël de l'entreprise, favorisant un moment de
-                            convivialité avec l'équipe. Les jours suivants, en attendant la validation d'un site, je me
-                            suis concentré sur la gestion des tickets clients et la réalisation de contrôles qualité,
-                            garantissant la conformité des livrables aux standards techniques et esthétiques.
-
-                            Après validation, j'ai repris l'intégration complète du site en respectant la charte
-                            graphique et finalisé les pages prévues. Enfin, j'ai consacré les derniers jours à répondre
-                            à un volume important de tickets et à vérifier les fonctionnalités et la cohérence des
-                            projets en cours. Cette semaine a renforcé ma capacité à jongler entre différentes tâches
-                            tout en respectant les attentes des clients et les priorités internes.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <div class="container">
-        <footer class="py-3 my-4 text-center text-white">
-            <p>&copy; 2024 Yakub ONAL</p>
-        </footer>
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-
 </body>
+
+<footer class="text-center text-white">
+    <p>&copy; 2024 Yakub ONAL</p>
+</footer>
 
 </html>
